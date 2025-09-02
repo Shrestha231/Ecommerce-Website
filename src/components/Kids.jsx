@@ -9,6 +9,7 @@ function Kids(){
   return (
     <div>
       <h2 className="text-2xl font-bold my-4 text-center">Kid's Collection</h2>
+      <h3>Kids wear</h3>
        <div className="grid grid-cols-3 gap-6 p-4">
               {kidsproduct.length > 0 ? (
                 kidsproduct.map((product) => (
