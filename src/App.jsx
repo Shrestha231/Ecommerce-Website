@@ -10,6 +10,7 @@ import Women from "./components/Women";
 import Kids from "./components/Kids";
 import Footer from "./components/Footer";
 import ContactUs from "./components/ContactUs";
+import Login from "./components/Login";
 
 
 
@@ -24,7 +25,8 @@ function App() {
         <Route path="/kids" element={<Kids/>} />
         <Route path="/cart" element={<CartPage/>} />
         <Route path="/profile" element={<ProfilePage />} /> 
-         <Route path="/contactus" element={<ContactUs />} />     
+         <Route path="/contactus" element={<ContactUs />} />
+         <Route path="/login" element={<Login/>} />      
           {/*  routes ke andr jo likhenge wo dynamic hoga */}
       </Routes>
       <Footer/>
